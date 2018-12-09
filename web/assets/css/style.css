@@ -6,8 +6,15 @@
     border-color: #ff8000; }
   .takeaway-body .menu {
     background-color: #3c3c3c; }
-    .takeaway-body .menu .navbar .navbar-nav .nav-link {
-      color: white; }
+    .takeaway-body .menu .navbar {
+      min-height: 58px; }
+      .takeaway-body .menu .navbar .navbar-nav .nav-link {
+        color: white; }
+      .takeaway-body .menu .navbar .navbar-toggler {
+        background-color: #ff8000; }
+      @media (max-width: 768px) {
+        .takeaway-body .menu .navbar .navbar-collapse {
+          padding-top: 40px; } }
   .takeaway-body .restaurant-grid {
     border-bottom: 1px solid #ddd;
     background-color: #fff;

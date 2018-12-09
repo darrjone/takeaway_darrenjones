@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93bfe3b-9cac-4e5b-a274-6534ab6a956b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Resources/data/sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/elements/restaurant.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Exception/InvalidSortingNameException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Model/RestaurantModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Model/SortingValuesModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Service/RestaurantService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Traits/HelperTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/vendors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/pages/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +83,8 @@
           <entry key="js" value="5735" />
           <entry key="json" value="16" />
           <entry key="php" value="13402" />
-          <entry key="scss" value="615" />
-          <entry key="twig" value="1285" />
+          <entry key="scss" value="741" />
+          <entry key="twig" value="1301" />
           <entry key="yml" value="258" />
         </counts>
       </usages-collector>
@@ -111,8 +94,8 @@
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="5735" />
           <entry key="PHP" value="13402" />
-          <entry key="SCSS" value="615" />
-          <entry key="Twig" value="1285" />
+          <entry key="SCSS" value="741" />
+          <entry key="Twig" value="1301" />
           <entry key="YAML" value="258" />
         </counts>
       </usages-collector>
@@ -162,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="215">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -201,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="20" column="142" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
+            <state relative-caret-position="137">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -476,12 +459,12 @@
       <workItem from="1544179336777" duration="18323000" />
       <workItem from="1544206289122" duration="1744000" />
       <workItem from="1544210893263" duration="1132000" />
-      <workItem from="1544349063492" duration="28125000" />
+      <workItem from="1544349063492" duration="28867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49324000" />
+    <option name="totallyTimeSpent" value="50066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1239" height="708" extended-state="0" />
@@ -697,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="20" column="142" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -711,10 +687,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="215">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>

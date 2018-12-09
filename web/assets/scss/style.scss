@@ -9,8 +9,19 @@ $main-color: #ff8000;
   }
   .menu {
     background-color: #3c3c3c;
-    .navbar .navbar-nav .nav-link {
-      color: white;
+    .navbar {
+      min-height: 58px;
+      .navbar-nav .nav-link {
+        color: white;
+      }
+      .navbar-toggler{
+        background-color: $main-color;
+      }
+      @media (max-width: 768px) {
+        .navbar-collapse {
+          padding-top: 40px;
+        }
+      }
     }
   }
   .restaurant-grid {
