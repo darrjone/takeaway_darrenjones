@@ -1,0 +1,38 @@
+.takeaway-body {
+  background-color: #f3f3f3; }
+  .takeaway-body .btn.btn-primary {
+    color: white;
+    background-color: #ff8000;
+    border-color: #ff8000; }
+  .takeaway-body .menu {
+    background-color: #3c3c3c; }
+    .takeaway-body .menu .navbar .navbar-nav .nav-link {
+      color: white; }
+  .takeaway-body .restaurant-grid {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    min-height: 118px;
+    padding: 16px;
+    margin: 4px 0; }
+    .takeaway-body .restaurant-grid.restaurant-status-open .status {
+      background-color: #06963a; }
+    .takeaway-body .restaurant-grid.restaurant-status-order-ahead .status {
+      background-color: #a0a0a0; }
+    .takeaway-body .restaurant-grid.restaurant-status-closed .status {
+      background-color: #ececec; }
+    .takeaway-body .restaurant-grid h3 {
+      font-size: 1.4em; }
+    .takeaway-body .restaurant-grid .sort, .takeaway-body .restaurant-grid .favourite-and-status {
+      padding: 0; }
+      .takeaway-body .restaurant-grid .sort li, .takeaway-body .restaurant-grid .favourite-and-status li {
+        list-style: none;
+        display: inline-block; }
+        .takeaway-body .restaurant-grid .sort li a, .takeaway-body .restaurant-grid .favourite-and-status li a {
+          text-decoration: none;
+          color: black; }
+          .takeaway-body .restaurant-grid .sort li a.active, .takeaway-body .restaurant-grid .favourite-and-status li a.active {
+            color: #ff8000; }
+    .takeaway-body .restaurant-grid .favourite-and-status li {
+      font-size: 1.2em; }
+    .takeaway-body .restaurant-grid.reference-grid {
+      display: none; }

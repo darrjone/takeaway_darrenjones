@@ -1,0 +1,57 @@
+$main-color: #ff8000;
+
+.takeaway-body {
+  background-color: #f3f3f3;
+  .btn.btn-primary{
+    color: white;
+    background-color: $main-color;
+    border-color: $main-color;
+  }
+  .menu {
+    background-color: #3c3c3c;
+    .navbar .navbar-nav .nav-link {
+      color: white;
+    }
+  }
+  .restaurant-grid {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    min-height: 118px;
+    padding: 16px;
+    margin: 4px 0;
+    &.restaurant-status-open .status{
+      background-color: #06963a;
+    }
+    &.restaurant-status-order-ahead .status{
+      background-color: #a0a0a0;
+    }
+    &.restaurant-status-closed .status{
+      background-color: #ececec;
+    }
+    h3{
+      font-size: 1.4em;
+    }
+    .sort, .favourite-and-status {
+      padding: 0;
+      li {
+        list-style: none;
+        display: inline-block;
+        a {
+          text-decoration: none;
+          color: black;
+          &.active {
+            color: $main-color;
+          }
+        }
+      }
+    }
+    .favourite-and-status{
+      li{
+        font-size: 1.2em;
+      }
+    }
+    &.reference-grid {
+      display: none;
+    }
+  }
+}
