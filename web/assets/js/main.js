@@ -3,7 +3,6 @@
 
     /**
      * global variables
-     * @type {*|HTMLElement}
      */
     let restaurantGridContainer = $("#restaurant-grid-container"),
         menu = $(".sorting-values-menu"),
@@ -74,7 +73,6 @@
     function loadRestaurants(element, sort){
         menuItem.removeClass("active");
         let item = element;
-
         $.ajax({
             method: "GET",
             url : "/sort/"+sort,
@@ -134,6 +132,7 @@
             }
         })
     });
+
 
     $(document).on("keyup", "#restaurant-search", function(e){
         let input = $(this);
