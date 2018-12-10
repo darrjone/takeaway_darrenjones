@@ -78,7 +78,7 @@
             url : "/sort/"+sort,
             dataType: "json",
             success: function success(response) {
-                item.addClass("active");
+                item.addClass("active"); //adds an active class to the menu
                 iterateRestaurants(response);
             },
             error: function error(_error) {
@@ -101,7 +101,7 @@
      */
     $(document).ready(function(){
         loadRestaurants(activeMenuItem, activeMenuItem.data("sort"));
-    })
+    });
 
     /**
      * Clicking on favourite
@@ -133,7 +133,9 @@
         })
     });
 
-
+    /**
+     * Searches the restaurant on keyup
+     */
     $(document).on("keyup", "#restaurant-search", function(e){
         let input = $(this);
         $.ajax({
