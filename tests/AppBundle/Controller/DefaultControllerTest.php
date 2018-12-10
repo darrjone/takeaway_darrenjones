@@ -10,6 +10,9 @@ class DefaultControllerTest extends WebTestCase
 {
     private $sortingValues;
 
+    /**
+     * Setting up the test case
+     */
     protected function setUp(){
         $sortValues = new SortingValuesModel();
         $sortValues = $sortValues->getAllVariables();

@@ -183,7 +183,7 @@ class RestaurantService
              */
             if($restaurant->getUid() == $uid){
                 $restaurant->setFavourite($bool);
-                return true;
+                return $bool;
             }
         }
         throw new InvalidFavouriteUidException("The restaurant with {$uid} doesn't seem to exist");

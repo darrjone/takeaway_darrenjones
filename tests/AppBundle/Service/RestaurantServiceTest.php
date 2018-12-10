@@ -14,6 +14,10 @@ class RestaurantServiceTest extends WebTestCase
     private $restaurantService;
     private $restaurants;
 
+    /**
+     * Setting up the test case
+     * @throws \Exception
+     */
     protected function setUp(){
         $client = static::createClient();
         $container = $client->getContainer();
@@ -44,6 +48,10 @@ class RestaurantServiceTest extends WebTestCase
         $this->restaurants = $this->restaurantService->getAll();
     }
 
+    /**
+     * Doing a thorough test in the set Favourite by key
+     * @throws \AppBundle\Exception\InvalidFavouriteUidException
+     */
     public function testSetFavouriteByKey()
     {
         /**
@@ -51,11 +59,23 @@ class RestaurantServiceTest extends WebTestCase
          */
         $restaurant = $this->restaurants[0];
 
+        //should return the value that was given
+        $result = $this->restaurantService->setFavouriteByUid(
+            $restaurant->getUid(), true
+        );
+
+        $this->assertEquals(true, $result);
+
+        //should contain a key name favourite once you add a favoured restaurant
+        $result = $this->restaurantService->getAllGrouped();
+        $this->assertEquals(true, array_key_exists("favourite", $result));
+
         $result = $this->restaurantService->setFavouriteByUid(
             $restaurant->getUid(), false
         );
 
-        $this->assertEquals(true, $result);
+        $this->assertEquals(false, $result);
+
     }
 
 
