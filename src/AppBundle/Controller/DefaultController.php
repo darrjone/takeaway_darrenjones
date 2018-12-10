@@ -2,10 +2,11 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Exception\InvalidFavouriteUidException;
 use AppBundle\Exception\InvalidSortingNameException;
 use AppBundle\Model\RestaurantModel;
 use AppBundle\Service\RestaurantService;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -114,9 +115,11 @@ class DefaultController extends Controller
 
             $favourite = boolval($favourite);
 
-            $this->getService()->setFavouriteByKey($uid, boolval($favourite));
+            $this->getService()->setFavouriteByUid($uid, boolval($favourite));
 
             return new JsonResponse(json_encode($params), 200);
+        }catch(InvalidFavouriteUidException $e){
+            return new JsonResponse("Something went wrong! {$e->getMessage()}", 404);
         }catch(\Exception $e){
             return new JsonResponse("Something went wrong!", 500);
         }

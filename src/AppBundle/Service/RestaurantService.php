@@ -1,6 +1,7 @@
 <?php
 namespace AppBundle\Service;
 
+use AppBundle\Exception\InvalidFavouriteUidException;
 use AppBundle\Exception\InvalidSortingNameException;
 use AppBundle\Model\SortingValuesModel;
 use AppBundle\Traits\HelperTrait;
@@ -12,6 +13,7 @@ class RestaurantService
 {
     private $session;
     private $filePath;
+    private $restaurants;
 
     const ORDER_ASCENDING = "<";
     const ORDER_DESCENDING = ">";
@@ -26,6 +28,11 @@ class RestaurantService
         $this->filePath = $filePath;
     }
 
+    public function setAll($restaurants)
+    {
+        $this->restaurants = $restaurants;
+    }
+
     /**
      * @return array
      * Gets the restaurants from the file and maps each restaurant into an object. These objects then are stored
@@ -33,6 +40,10 @@ class RestaurantService
      */
     public function getAll()
     {
+        if(!empty($this->restaurants)){
+            return $this->restaurants;
+        }
+
         if(!$this->session->has(self::SESSION_KEY)) {
             $sample = json_decode(file_get_contents($this->filePath), true);
 
@@ -158,11 +169,13 @@ class RestaurantService
     }
 
     /**
+     * @param array $restaurants
      * @param $uid
      * @param bool $bool
-     * @return null
+     * @return bool
+     * @throws InvalidFavouriteUidException
      */
-    public function setFavouriteByKey($uid, bool $bool = false)
+    public function setFavouriteByUid($uid, $bool = false)
     {
         foreach($this->getAll() as $restaurant){
             /**
@@ -170,9 +183,10 @@ class RestaurantService
              */
             if($restaurant->getUid() == $uid){
                 $restaurant->setFavourite($bool);
+                return true;
             }
         }
-        return null;
+        throw new InvalidFavouriteUidException("The restaurant with {$uid} doesn't seem to exist");
     }
 
     /**
