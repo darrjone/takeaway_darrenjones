@@ -1,6 +1,6 @@
 ## Introduction
 
-My choice of framework for this project is to work with [https://symfony.com/doc/3.4/setup.html link](**Symfony 3.4**). I have chosen this framework as I am more familiar with and it also comes with quite a lot of useful libraries that can help me out with the task in hand. For the front-end part of the project I have decided to work with Bootstrap, SASS, jQuery and gulp. I am using gulp to compile SASS into CSS and concatenate any JavaScript and SASS libraries into one file. As for testing I chose to work with [https://github.com/sebastianbergmann/phpunit link](**PHPUnit**) as a testing framework (This had to be added as an extra package).
+My choice of framework for this project is to work with [**Symfony 3.4** link](https://symfony.com/doc/3.4/setup.html). I have chosen this framework as I am more familiar with and it also comes with quite a lot of useful libraries that can help me out with the task in hand. For the front-end part of the project I have decided to work with Bootstrap, SASS, jQuery and gulp. I am using gulp to compile SASS into CSS and concatenate any JavaScript and SASS libraries into one file. As for testing I chose to work with [https://github.com/sebastianbergmann/phpunit link](**PHPUnit**) as a testing framework (This had to be added as an extra package).
 
 ## Setup
 
