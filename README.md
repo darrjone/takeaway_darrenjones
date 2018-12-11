@@ -14,7 +14,6 @@ By Reading the document provided I came up with some few ideas that needed for t
 
 1. Get ready on creating a fresh new Symfony project
 2. Creating two Class objects that relate to the Restaurant
-  1. Classes
     1. Restaurant Model
       1. Added a unique identifier to be used as reference for favouriting the restaurant
     2. Sorting Values Model
