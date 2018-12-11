@@ -14,11 +14,12 @@ By Reading the document provided I came up with some few ideas that needed for t
 
 1. Get ready on creating a fresh new Symfony project
 2. Creating two Class objects that relate to the Restaurant
-    1. Restaurant Model
-      1. Added a unique identifier to be used as reference for favouriting the restaurant
-    2. Sorting Values Model
-      1. Also added the bonus bit to this Class model
-    3. Adding functions to inject an array into the class object _(Created a trait for this as I also need it for the service part of the project)_
+    1. Classes
+            1. Restaurant Model
+                1. Added a unique identifier to be used as reference for favouriting the restaurant
+            2. Sorting Values Model
+                1. Also added the bonus bit to this Class model
+            3. Adding functions to inject an array into the class object _(Created a trait for this as I also need it for the service part of the project)_
 3. Create a service which handles:
   1. Getting the data from the JSON file and storing it in the session for later manipulation
   2. Add the sorting mechanism
