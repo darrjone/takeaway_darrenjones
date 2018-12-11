@@ -19,10 +19,10 @@ By Reading the document provided I came up with some few ideas that needed for t
     3. Add the bonus bit to this (Sorting Values Model)
     4. Adding functions to inject an array into the class object _(Created a trait for this as I also need it for the service part of the project)_
 3. Create a service which handles:
-  1. Getting the data from the JSON file and storing it in the session for later manipulation
-  2. Add the sorting mechanism
-  3. Add a search mechanism
-  4. Add the set favourite mechanism
+    1. Getting the data from the JSON file and storing it in the session for later manipulation
+    2. Add the sorting mechanism
+    3. Add a search mechanism
+        4. Add the set favourite mechanism
 
 ### Front-end
 
