@@ -27,18 +27,18 @@ By Reading the document provided I came up with some few ideas that needed for t
 ### Front-end
 
 1. Added the gulp file via npm
-  1. Added the SASS compiler to compile my SASS files as well as vendor SASS files to CSS which points to the /web directory
-  2.  Added a JavaScript compiler to compile other vendors together into one file such as jQuery and Boostrap including its dependencies
-  3. Created a watch task to watch the SASS files while being changed.
+    1. Added the SASS compiler to compile my SASS files as well as vendor SASS files to CSS which points to the /web directory
+    2.  Added a JavaScript compiler to compile other vendors together into one file such as jQuery and Boostrap including its dependencies
+    3. Created a watch task to watch the SASS files while being changed.
 2. Started creating the necessary twig templates with the menu and the restaurant grid layout. I&#39;ve created the restaurant grid layout as a reference to be cloned later via JavaScript
 3. Started working on the JavaScript components
-  1. Build the restaurant grid layout builder
-  2. Added sorting call to action function which if succeeded runs through the restaurant grid layout builder
-  3. Added search call to action function which if succeeded runs also through the restaurant grid layout builder
-  4. Added favourite call to action function which changes the state of the favourite heart icon by adding a class name active
+    1. Build the restaurant grid layout builder
+    2. Added sorting call to action function which if succeeded runs through the restaurant grid layout builder
+    3. Added search call to action function which if succeeded runs also through the restaurant grid layout builder
+    4. Added favourite call to action function which changes the state of the favourite heart icon by adding a class name active
 4. Making things pretty
-  1. Added some classes and colours that relate to lieferando.com
-  2. Made a few adjustments on the CSS when going through different views (Desktop, Tablet and Mobile). I used Chrome&#39;s Developer Tools to mimic different device views
+    1. Added some classes and colours that relate to lieferando.com
+    2. Made a few adjustments on the CSS when going through different views (Desktop, Tablet and Mobile). I used Chrome&#39;s Developer Tools to mimic different device views
 
 ## Testing
 
