@@ -13,7 +13,7 @@ By Reading the document provided I came up with some few ideas that needed for t
 ### Back-end
 
 1. Get ready on creating a fresh new Symfony project
-2. Creating two Class objects that relate to the Restaurant
+2. Creating models that relate to the JSON file provided:
     1. Creating Restaurant Model and Sorting Values Model objects
     2. Added a unique identifier to be used as reference for favouriting the restaurant (Restaurant Model)
     3. Add the bonus bit to this (Sorting Values Model)
@@ -22,7 +22,7 @@ By Reading the document provided I came up with some few ideas that needed for t
     1. Getting the data from the JSON file and storing it in the session for later manipulation
     2. Add the sorting mechanism
     3. Add a search mechanism
-        4. Add the set favourite mechanism
+    4. Add the set favourite mechanism
 
 ### Front-end
 
