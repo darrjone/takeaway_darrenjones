@@ -4,7 +4,7 @@ My choice of framework for this project is to work with [**Symfony 3.4**](https:
 
 ## Setup
 
-To fully run this application you would need [**Composer**](https://github.com/composer/composer) and [**PHP**](http://php.net/manual/en/migration70.new-features.php) installed on your system. Once these two are installed CD into the directory of the project and run **composer install****. **As soon as composer finished installing the packages related to the project run** php bin/console server:run ****.** This will run the project into a virtual server and will provide you the link to go to as follows: [**http://127.0.0.1:8000**](http://127.0.0.1:8000)_(port might be different due to other applications using the same port)._
+To fully run this application you would need [**Composer**](https://github.com/composer/composer) and [**PHP**](http://php.net/manual/en/migration70.new-features.php) installed on your system. Once these two are installed CD into the directory of the project and run **composer install**. As soon as composer finished installing the packages related to the project run **php bin/console server:run**. This will run the project into a virtual server and will provide you the link to go to as follows: [**http://127.0.0.1:8000**](http://127.0.0.1:8000)_(port might be different due to other applications using the same port)._
 
 ## Implementation
 
